@@ -252,13 +252,14 @@ bash scripts/07_export_splat.sh
 
 ---
 
-## What to put on GitHub vs what NOT to
-```
-✅ COMMIT:                    ❌ DON'T COMMIT:
-scripts/                      input/ (1206 JPGs = ~300MB)
-results/ (5 screenshots)      processed/ (COLMAP DB = 856MB)
-docs/                         output/ (checkpoints = ~1GB)
-README.md                     exports/splat.ply (200MB+)
-.gitignore                    walkthrough.mp4 (4.4GB!)
-requirements.txt              vocab_tree/ (binary)
-config/                       miniconda3/
+## 📤 What to Commit vs What NOT to Commit
+
+| ✅ COMMIT | ❌ DON'T COMMIT |
+|-----------|----------------|
+| `scripts/` | `input/` (1206 JPGs = ~300MB) |
+| `results/` (5 screenshots) | `processed/colmap.db` (856MB) |
+| `docs/` | `output/` (checkpoints = ~1GB) |
+| `README.md` | `exports/splat.ply` (200MB+) |
+| `.gitignore` | `walkthrough.mp4` (4.4GB!) |
+| `requirements.txt` | `vocab_tree/` (binary) |
+| `config/` | `miniconda3/` |
