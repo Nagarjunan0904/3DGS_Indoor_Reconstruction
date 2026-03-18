@@ -248,7 +248,6 @@ bash scripts/07_export_splat.sh
 - [Nerfstudio](https://docs.nerf.studio/)
 - [gsplat](https://docs.gsplat.studio/)
 - [COLMAP](https://colmap.github.io/)
-```
 
 ---
 
